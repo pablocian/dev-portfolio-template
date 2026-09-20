@@ -1,0 +1,6 @@
+/* Layout helpers that sit on top of Tailwind tokens. */
+
+.section-wrap {
+  width: min(1120px, calc(100% - 2rem));
+  margin-inline: auto;
+}

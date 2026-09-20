@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Weather Dashboard",
+    "description": "A responsive weather app with city search, 7-day forecasts, and saved locations.",
+    "preview": null,
+    "links": [
+      { "url": "", "text": "GitHub" },
+      { "url": "", "text": "Live Demo" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Task Tracker",
+    "description": "A kanban-style task manager with drag-and-drop columns and local storage.",
+    "preview": null,
+    "links": [
+      { "url": "", "text": "GitHub" },
+      { "url": "", "text": "Live Demo" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Recipe Finder",
+    "description": "Search recipes by ingredient, filter by diet, and save favorites for later.",
+    "preview": null,
+    "links": [
+      { "url": "", "text": "GitHub" },
+      { "url": "", "text": "Live Demo" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Chat App",
+    "description": "Real-time messaging with rooms, typing indicators, and a simple Node.js backend.",
+    "preview": null,
+    "links": [
+      { "url": "", "text": "GitHub" },
+      { "url": "", "text": "Live Demo" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Expense Tracker",
+    "description": "Track spending with charts, categories, and a monthly budget view.",
+    "preview": null,
+    "links": [
+      { "url": "", "text": "GitHub" },
+      { "url": "", "text": "Live Demo" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Markdown Notes",
+    "description": "A markdown note-taking app with live preview and keyboard shortcuts.",
+    "preview": null,
+    "links": [
+      { "url": "", "text": "GitHub" },
+      { "url": "", "text": "Live Demo" }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "firstName": "Alex",
+  "lastName": "Rivera",
+  "pageTitle": "Alex Rivera — Full-Stack Developer",
+  "status": "Open to work",
+  "typedRoles": [
+    "Full-Stack Magician",
+    "Command-line Ninja",
+    "Kick Ass Developer",
+    "Lead Code Wizard"
+  ],
+  "tagline": "I like building things people can actually use — clean interfaces, reliable APIs, and the occasional side project that gets out of hand.",
+  "summary": "I have 5+ years of experience building production web applications with React, Node.js, and Tailwind CSS. My biggest achievement was leading a product rebuild that cut page load times in half and grew monthly active users by 40%.",
+  "location": "Berlin, Germany",
+  "email": "alex.rivera@example.com",
+  "githubUsername": "octocat",
+  "socials": [
+    {
+      "name": "GitHub",
+      "handle": "@octocat",
+      "url": "https://github.com/octocat",
+      "icon": "github"
+    },
+    {
+      "name": "LinkedIn",
+      "handle": "alex-rivera",
+      "url": "",
+      "icon": "linkedin"
+    },
+    {
+      "name": "X",
+      "handle": "@alexrivera",
+      "url": "",
+      "icon": "x"
+    }
+  ]
+}

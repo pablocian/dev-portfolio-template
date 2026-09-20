@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+  --color-void: #05060c;
+  --color-panel: #0c0e16;
+  --color-cyan: #22d3ee;
+  --color-magenta: #e879f9;
+  --color-term: #4ade80;
+}
+
+html {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: #05060c;
+  color: #d1d5db;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+h1,
+h2,
+h3 {
+  color: #f9fafb;
+}
+
+a {
+  color: inherit;
+}
+
+.glow-cyan {
+  box-shadow:
+    0 0 20px rgba(34, 211, 238, 0.22),
+    0 0 48px rgba(34, 211, 238, 0.08);
+}
+
+.glow-magenta {
+  box-shadow:
+    0 0 18px rgba(232, 121, 249, 0.4),
+    0 0 36px rgba(232, 121, 249, 0.12);
+}
+
+.glow-green {
+  box-shadow: 0 0 10px rgba(74, 222, 128, 0.85);
+}
+
+.gradient-text {
+  background-image: linear-gradient(90deg, #22d3ee 0%, #e879f9 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.app-nebula {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 80% 55% at 18% 8%, rgba(124, 58, 237, 0.22), transparent 55%),
+    radial-gradient(ellipse 55% 40% at 85% 12%, rgba(6, 182, 212, 0.14), transparent 50%),
+    radial-gradient(ellipse 50% 45% at 50% 90%, rgba(232, 121, 249, 0.08), transparent 55%),
+    #05060c;
+}
+
+.app-shell {
+  position: relative;
+  min-height: 100svh;
+}
+
+.app-background {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.app-content {
+  position: relative;
+  z-index: 1;
+}
+
+.nav-link.active {
+  color: #ffffff;
+}
+
+.typed-cursor {
+  color: #22d3ee;
+}
+
+#top,
+#projects,
+#stats,
+#contact {
+  scroll-margin-top: 5.5rem;
+}
